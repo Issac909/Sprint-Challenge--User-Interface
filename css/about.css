@@ -179,8 +179,6 @@ footer nav a {
 .textBox {
     display: flex;
     flex-direction: column;
-    border-bottom: 2px dashed black; 
-
     padding: 30px;
     justify-content: space-between;
 }
@@ -214,6 +212,7 @@ img {
 
 .midSection .bottomPart {
     display: flex;
+    border-bottom: 2px dashed black;
 }
 
 .midSection .topPart {
