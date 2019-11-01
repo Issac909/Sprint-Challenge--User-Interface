@@ -1,0 +1,131 @@
+* {
+
+    box-sizing: border-box;
+}
+body {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+/*Reset ends here */
+
+.pageContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav a{
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+
+header >nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header nav >a {
+    color: inherit;
+}
+header nav a >.logo {
+    display: inline-block;
+}
+
+.topContent {
+    display: flex;
+}
+.textContainer {
+    padding-right: 3%;
+
+}
+
+.textContainer1 {
+    padding-left: 4%;
+}
+
+.middleContent {
+    border-top: .15em dashed black;
+    border-bottom: .15em dashed black;
+}
+
+.middleContent >.boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.middleContent .boxes >.box {
+    width: 10em;
+    margin: 2%;
+    height: 10em;
+    text-align: center;
+    display: inline-block;
+    padding-top: 4.5em;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
+
+.bottomContent{
+    display: flex;
+}
+
+footer {
+    background-color: black;
+}
+
+
+footer nav {
+    display: flex;
+    align-content: flex-start;
+}
+footer nav >a {
+    margin: 2% 5% 2% 1%;
+    font-weight: 550;
+    color: white;
+}
